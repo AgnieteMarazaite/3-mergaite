@@ -6,3 +6,10 @@
 # Mergaite
 
 _29 group website project_
+
+## Project features
+
+- Github pages
+- png images
+- fixed width content
+- desktop only
