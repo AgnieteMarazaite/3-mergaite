@@ -7,16 +7,14 @@ header {
     display: inline-block;
     width: 800px;
     margin-left: calc((100% - 800px) / 2);
-    
 }
 
-img{
-  display: inline-block;
-  width: 100%;
+header > img {
   float: left;  
 }
 
 nav{
+  float: right; 
 }
 
 
@@ -26,11 +24,15 @@ main {
     display: inline-block;
     width: 800px;
     margin-left: calc((100% - 800px) / 2);
-     
-
+    background-color: yellow;
 }
 
 div{
+  width: 40%;
+  float: left;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  background-color: blue;  
 }
 
 h1{
@@ -39,5 +41,10 @@ h1{
 p{
 }
 
-img{
+main > img {
+  width: 50%;
+  float: left;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  background-color: red;  
 }
